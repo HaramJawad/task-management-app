@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="taskName">
+            <input type="text" id="taskName" class="taskName" placeholder="Enter your task name">
+        </div>
+        <select id="selectPriority" class="selectPriority">
+            <option disabled selected>Select your priority level</option>
+            <option value="1">Low</option>
+            <option value="2">Medium</option>
+            <option value="3">High</option>
+        </select>
+        <div class="dueDate">
+            <input type="date" id="dueDate" class="dueDate" name="from" size="9" value="">
+        </div>
+        <div class="addTask">
+            <button type="button" id="addTask" class="addTask">Add Your Task</button>
+        </div>
+        <table id="displayTask">
+            <thead>
+                <tr>
+                    <th>Task Name</th>
+                    <th>Priority Level</th>
+                    <th>Due Date</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <div class="clearTasks">
+            <button type="button" id="clearBtn">Clear All Tasks</button>
+        </div>
+        <div class="filterdropdown" id="filterDropdown">
+            <input type="text" id="searchTask" placeholder="Search Task...">
+            <select id="myDropdown">
+                <option>All Priorities</option>
+                <option value="1">Low</option>
+                <option value="2">Medium</option>
+                <option value="3">High</option>
+            </select>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

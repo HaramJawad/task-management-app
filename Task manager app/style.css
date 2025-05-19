@@ -1,0 +1,103 @@
+body {
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: black;
+}
+
+.container {
+
+    width: 700px;
+    height: 500px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 30px rgba(0, 0, 0, 0.2);
+}
+
+div .taskName input {
+    height: 50px;
+    width: 308px;
+    border-radius: 4px;
+    padding: 0.2rem;
+    border: 2px solid black;
+
+}
+
+.selectPriority {
+    height: 60px;
+    width: 316px;
+    border-radius: 4px;
+    padding: 0.2rem;
+    margin-top: 5px;
+    border: 2px solid black;
+}
+
+div .dueDate input {
+    height: 60px;
+    width: 310px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-top: 5px;
+    padding: 0.2rem;
+}
+
+
+div .addTask button {
+    height: 40px;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(142, 231, 142);
+    margin-bottom: 13px;
+}
+
+.deletebtn {
+    background-color: rgb(235, 85, 85);
+    border: none;
+    outline: none;
+}
+
+.editbtn {
+    background-color: rgb(123, 123, 247);
+    border: none;
+    outline: none;
+}
+
+.clearTasks {
+    margin-top: 20px;
+}
+
+.clearTasks button {
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    background-color: rgb(250, 190, 78);
+}
+
+.filterdropdown input {
+    width: 250px;
+    height: 40px;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+#myDropdown {
+    width: 150px;
+    height: 45px;
+    border-radius: 4px;
+    border: 2px solid black;
+}
