@@ -14,21 +14,7 @@ Due Date
 ✅ Clear all tasks at once
 ✅ Data is saved in localStorage (no database required)
 
-🖼️ Screenshots
-(You can add screenshots here if you want)
-Example:
-
-🔧 Tech Stack
-HTML5
-CSS3
-JavaScript (ES6)
-Browser LocalStorage API
-
-
 📂 Folder Structure
-bash
-Copy
-Edit
 Task-Manager-App/
 │
 ├── index.html         # Main HTML structure
